@@ -1,0 +1,1 @@
+const kBaseUrl = "64f45d46932537f4051a4c95.mockapi.io";

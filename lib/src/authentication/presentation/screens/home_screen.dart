@@ -5,7 +5,7 @@ import 'package:tdd_flutter/src/authentication/presentation/widgets/add_user_dia
 import 'package:tdd_flutter/src/authentication/presentation/widgets/loading_column.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();

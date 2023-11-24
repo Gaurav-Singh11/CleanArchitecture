@@ -4,9 +4,9 @@ import 'package:tdd_flutter/src/authentication/presentation/cubit/authentication
 
 class AddUserDialog extends StatelessWidget {
   const AddUserDialog({
-    Key? key,
+    super.key,
     required this.nameController,
-  }) : super(key: key);
+  });
   final TextEditingController nameController;
 
   @override
